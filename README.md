@@ -23,7 +23,7 @@ regiões concentram as oportunidades?
 | Repositório GitHub | `https://github.com/danilosoc7/G2-LinguagensProgramacao` |
 | GitHub Pages | `https://github.com/danilosoc7/G2-LinguagensProgramacao` |
 | Dashboard (Streamlit Cloud) | `https://g2-linguagensprogramacao-dashboard.streamlit.app/` |
-| Notbook (Google Colab) | `https://colab.research.google.com/drive/1476rLzOyDPJVUKKPurFshR5hbplLAhW9` |
+| Notebook (Google Colab) | `https://colab.research.google.com/drive/1476rLzOyDPJVUKKPurFshR5hbplLAhW9` |
 
 
 > Substitua os links acima após publicar (instruções na seção *Publicação*).
