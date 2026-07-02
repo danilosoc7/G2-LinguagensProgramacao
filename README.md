@@ -26,10 +26,6 @@ regiões concentram as oportunidades?
 | Notebook (Google Colab) | `https://colab.research.google.com/drive/1476rLzOyDPJVUKKPurFshR5hbplLAhW9` |
 
 
-> Substitua os links acima após publicar (instruções na seção *Publicação*).
-
----
-
 ## 🧰 Tecnologias
 
 **Obrigatórias:** Python · Pandas · Matplotlib · Seaborn · Streamlit · GitHub
