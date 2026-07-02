@@ -95,7 +95,7 @@ O dashboard abre em `http://localhost:8501`.
 
 ## 🚀 Publicação
 
-**GitHub** — suba o projeto:
+**GitHub** 
 ```bash
 git init
 git add .
@@ -105,8 +105,7 @@ git remote add origin https://github.com/SEU_USUARIO/projeto-g2.git
 git push -u origin main
 ```
 
-**GitHub Pages** — em *Settings → Pages*, selecione a branch `main` / pasta `/root`.
-A página `index.html` ficará disponível em `https://danilosoc7.github.io/G2-LinguagensProgramacao/`.
+**GitHub Pages** — `https://danilosoc7.github.io/G2-LinguagensProgramacao/`.
 
 ## 📌 Principais conclusões
 
