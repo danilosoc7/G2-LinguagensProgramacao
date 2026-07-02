@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercado de Trabalho em TI no Brasil (2015–2024)</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #131c2e;
+      --accent: #3b82f6;
+      --accent-2: #22d3ee;
+      --text: #e5edff;
+      --muted: #94a3b8;
+      --border: #24304a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(1200px 600px at 80% -10%, #1e3a8a33, transparent),
+                  var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 48px 24px 72px; }
+    header { text-align: center; margin-bottom: 48px; }
+    .badge {
+      display: inline-block; font-size: .8rem; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--accent-2);
+      border: 1px solid var(--border); padding: 4px 12px; border-radius: 999px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem); line-height: 1.15;
+      background: linear-gradient(90deg, var(--text), var(--accent-2));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .subtitle { color: var(--muted); margin-top: 12px; font-size: 1.05rem; }
+    .cta { margin-top: 28px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      text-decoration: none; font-weight: 600; padding: 12px 22px; border-radius: 10px;
+      border: 1px solid var(--border); color: var(--text); transition: .2s;
+    }
+    .btn.primary { background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #06101f; border: none; }
+    .btn:hover { transform: translateY(-2px); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 40px; }
+    .card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      padding: 22px;
+    }
+    .card h3 { font-size: 1.05rem; margin-bottom: 8px; color: var(--accent-2); }
+    .card p { color: var(--muted); font-size: .95rem; }
+    section { margin-top: 56px; }
+    section h2 { font-size: 1.4rem; margin-bottom: 18px; }
+    ul.features { list-style: none; display: grid; gap: 10px; }
+    ul.features li { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; }
+    ul.features li b { color: var(--accent-2); }
+    .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; }
+    .kpi { text-align: center; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px; }
+    .kpi .num { font-size: 1.8rem; font-weight: 700; color: var(--accent-2); }
+    .kpi .lbl { color: var(--muted); font-size: .85rem; margin-top: 4px; }
+    footer { margin-top: 64px; text-align: center; color: var(--muted); font-size: .85rem; }
+    code { background: #0a1424; padding: 2px 7px; border-radius: 6px; border: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="badge">Projeto G2 · Análise e Visualização de Dados</span>
+      <h1>Mercado de Trabalho em TI no Brasil</h1>
+      <p class="subtitle">Análise da evolução de vagas, salários e modalidades de trabalho entre 2015 e 2024.</p>
+      <div class="cta">
+        <!-- Substitua os links abaixo apos publicar -->
+        <a class="btn primary" href="https://SEU_APP.streamlit.app" target="_blank" rel="noopener">🚀 Abrir Dashboard</a>
+        <a class="btn" href="https://github.com/SEU_USUARIO/projeto-g2" target="_blank" rel="noopener">📦 Código no GitHub</a>
+        <a class="btn" href="https://github.com/SEU_USUARIO/projeto-g2/blob/main/notebooks/analise_mercado_ti.ipynb" target="_blank" rel="noopener">📓 Notebook</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Indicadores em destaque</h2>
+      <div class="kpis">
+        <div class="kpi"><div class="num">2015–2024</div><div class="lbl">Período analisado</div></div>
+        <div class="kpi"><div class="num">4.000</div><div class="lbl">Registros de vagas</div></div>
+        <div class="kpi"><div class="num">12</div><div class="lbl">Cargos monitorados</div></div>
+        <div class="kpi"><div class="num">2020</div><div class="lbl">Virada do remoto</div></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>O que este projeto entrega</h2>
+      <div class="grid">
+        <div class="card"><h3>Análise exploratória</h3><p>Notebook com 10 seções: da leitura e limpeza dos dados à interpretação e conclusão.</p></div>
+        <div class="card"><h3>Dashboard interativo</h3><p>App em Streamlit com filtros múltiplos, KPIs dinâmicos e gráficos interativos.</p></div>
+        <div class="card"><h3>Persistência em banco</h3><p>Dados armazenados em SQLite e acessados via SQLAlchemy.</p></div>
+        <div class="card"><h3>Correlação estatística</h3><p>Matriz de correlação entre variáveis numéricas com Pandas e Seaborn.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Funcionalidades técnicas</h2>
+      <ul class="features">
+        <li><b>Intermediárias:</b> filtros múltiplos, KPIs dinâmicos, gráficos interativos, análise temporal, seções organizadas.</li>
+        <li><b>Avançadas:</b> persistência em banco (SQLAlchemy + SQLite) e correlação estatística (Pandas/NumPy).</li>
+        <li><b>Stack:</b> Python, Pandas, Matplotlib, Seaborn, Plotly, Streamlit.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Como rodar</h2>
+      <p class="subtitle">Clone o repositório e execute:</p>
+      <p style="margin-top:10px"><code>pip install -r requirements.txt</code> &nbsp;→&nbsp; <code>streamlit run app.py</code></p>
+    </section>
+
+    <footer>
+      Desenvolvido por Danilo · Disciplina de Linguagem de Programação · 2026
+    </footer>
+  </div>
+</body>
+</html>
