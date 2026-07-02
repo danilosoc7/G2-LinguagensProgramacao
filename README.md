@@ -21,7 +21,7 @@ regiões concentram as oportunidades?
 | Item | Link |
 |---|---|
 | Repositório GitHub | `https://github.com/danilosoc7/G2-LinguagensProgramacao` |
-| GitHub Pages | `https://github.com/danilosoc7/G2-LinguagensProgramacao` |
+| GitHub Pages | `https://danilosoc7.github.io/G2-LinguagensProgramacao/` |
 | Dashboard (Streamlit Cloud) | `https://g2-linguagensprogramacao-dashboard.streamlit.app/` |
 | Notebook (Google Colab) | `https://colab.research.google.com/drive/1476rLzOyDPJVUKKPurFshR5hbplLAhW9` |
 
@@ -106,12 +106,7 @@ git push -u origin main
 ```
 
 **GitHub Pages** — em *Settings → Pages*, selecione a branch `main` / pasta `/root`.
-A página `index.html` ficará disponível em `https://SEU_USUARIO.github.io/projeto-g2/`.
-
-**Streamlit Community Cloud** — acesse [share.streamlit.io](https://share.streamlit.io),
-conecte o repositório e aponte para `app.py`.
-
----
+A página `index.html` ficará disponível em `https://danilosoc7.github.io/G2-LinguagensProgramacao/`.
 
 ## 📌 Principais conclusões
 
