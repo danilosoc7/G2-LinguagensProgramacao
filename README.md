@@ -20,9 +20,9 @@ regiões concentram as oportunidades?
 
 | Item | Link |
 |---|---|
-| Repositório GitHub | `https://github.com/SEU_USUARIO/projeto-g2` |
-| GitHub Pages | `https://SEU_USUARIO.github.io/projeto-g2/` |
-| Dashboard (Streamlit Cloud) | `https://SEU_APP.streamlit.app` |
+| Repositório GitHub | `https://github.com/danilosoc7/G2-LinguagensProgramacao` |
+| GitHub Pages | `https://github.com/danilosoc7/G2-LinguagensProgramacao` |
+| Dashboard (Streamlit Cloud) | `https://g2-linguagensprogramacao-dashboard.streamlit.app/` |
 
 > Substitua os links acima após publicar (instruções na seção *Publicação*).
 
